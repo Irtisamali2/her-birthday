@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A special birthday wish for Fatima Khan with love">
+    <title>Happy Birthday Fatima Khan 🎂💖</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Animated background particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Floating hearts -->
+    <div class="hearts-container" id="hearts"></div>
+
+    <!-- Main content -->
+    <div class="container">
+        <!-- Hero section with animated text -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="fade-in-up">
+                    <span class="line">Happy Birthday</span>
+                    <span class="line highlight">Fatima Khan</span>
+                </h1>
+                <p class="subtitle fade-in-up delay-1">My Love, My Everything 💖</p>
+            </div>
+        </section>
+
+        <!-- Birthday cake animation -->
+        <section class="cake-section">
+            <div class="cake-container fade-in-scale delay-2">
+                <div class="cake">
+                    <div class="candles">
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+                    </div>
+                    <div class="cake-layer layer-1"></div>
+                    <div class="cake-layer layer-2"></div>
+                    <div class="cake-layer layer-3"></div>
+                </div>
+                <p class="cake-text">Make a wish! ✨</p>
+            </div>
+        </section>
+
+        <!-- Interactive message cards -->
+        <section class="messages-section">
+            <div class="message-card fade-in-up delay-3" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="icon">📱</div>
+                        <h3>Tap to reveal</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>January 10, 2026 - a random scroll on Instagram brought you into my life. What seemed like
+                            chance was destiny. Alhamdulillah for that moment!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-card fade-in-up delay-4" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="icon">💝</div>
+                        <h3>Tap to reveal</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Your kindness and caring nature make every day brighter. I feel truly blessed to have you in
+                            my life. You are a gift from Allah.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-card fade-in-up delay-5" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="icon">💫</div>
+                        <h3>Tap to reveal</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>From a random Instagram connection to forever, InshAllah. I love you more than words can
+                            express. Happy Birthday, my love!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Countdown or special date -->
+        <section class="special-section fade-in-up delay-6">
+            <div class="special-box">
+                <h2>January 28 - Your Special Day! 🎉</h2>
+                <p class="date">We met just 18 days ago, but it feels like I've known you forever</p>
+                <p class="quote">"From a chance encounter on January 10th to a forever story, InshAllah. You've shown me
+                    what kindness, care, and love truly mean."</p>
+            </div>
+        </section>
+
+        <!-- Interactive button -->
+        <section class="action-section fade-in-up delay-7">
+            <button class="celebration-btn" onclick="celebrate()">
+                🎊 Click for a Surprise! 🎊
+            </button>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer fade-in-up delay-8">
+            <p>Made with 💖 just for you</p>
+            <p class="footer-note">You deserve all the happiness in the world</p>
+        </footer>
+    </div>
+
+    <!-- Confetti container -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
